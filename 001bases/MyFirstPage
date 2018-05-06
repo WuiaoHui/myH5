@@ -15,7 +15,7 @@
        width:100%;
      }/*动画效果*/
    @keyframes myfirst {
-          from{opacity: 0}
+          from{opacity: 0}/*不透明度*/
           to{opacity: 100}
       }
    h1,p{
