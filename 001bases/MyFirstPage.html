@@ -5,9 +5,13 @@
   <title> 唐诗一首 </title>
   <style type="text/css">
    body{
-      background: antiquewhite;
-      height:100%;
-       width:100%;
+       margin: 0;
+       background-color: coral;
+       background-image: url(./image/0.jpg) ;
+       background-size: 980px 2000px;
+       background-repeat: no-repeat;
+       height: 100%;
+       width: 100%;
      }
    /*动画效果*/
    @keyframes myfirst {
@@ -23,10 +27,11 @@
      100%{opacity: 0}
    }
    p{
-     font-size: 100px;
-     position:absolute;
-    text-align: center;
-     width: 100%;
+       color: antiquewhite;
+       font-size: 100px;
+       position:absolute;
+       text-align: center;
+       width: 100%;
       }
    #moon{
     animation:myfirst 7.46s infinite ;
@@ -39,7 +44,7 @@
 
  <body>
  <!--插入音频-->
- <audio src="" controls="controls" autoplay="autoplay" loop="loop"></audio>
+ <audio src="warm.mp3"  autoplay="autoplay" loop="loop"></audio>
   <p id="moon">举头望明月，</p>
   <p id="home">低头思故乡。</p>
  </body>
