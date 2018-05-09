@@ -11,21 +11,36 @@
      }
    /*动画效果*/
    @keyframes myfirst {
-          from{opacity: 0}/*不透明度*/
-          to{opacity: 100}
+     0%{opacity: 0}/*不透明度*/
+     25%{opacity: 100}
+     50%{opacity: 0}
+     100%{opacity: 0}
       }
-   h1,p{
-          animation: myfirst 1s infinite;
+   @keyframes mysecond {
+     0%{opacity: 0}/*不透明度*/
+     50%{opacity: 0}
+     75%{opacity: 100}
+     100%{opacity: 0}
+   }
+   p{
+     font-size: 100px;
+     position:absolute;
+    text-align: center;
+     width: 100%;
       }
+   #moon{
+    animation:myfirst 7.46s infinite ;
+   }
+   #home{
+    animation:mysecond 7.46s infinite ;
+   }
   </style>
  </head>
 
  <body>
- <audio src="" controls="controls" autoplay="autoplay" loop="loop"></audio>/*插入音频*/
-  <h1>静夜思</h1>
-  <p>床前明月光，</p>
-  <p>疑是地下霜，</p>
-  <p>举头望明月，</p>
-  <p>低头思故乡。</p>
+ <!--插入音频-->
+ <audio src="" controls="controls" autoplay="autoplay" loop="loop"></audio>
+  <p id="moon">举头望明月，</p>
+  <p id="home">低头思故乡。</p>
  </body>
 </html>
