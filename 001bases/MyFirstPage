@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> 唐诗一首 </title>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+
+  <style>
+   body{
+      background: antiquewhite;
+      height:100%;
+       width:100%;
+     }/*动画效果*/
+   @keyframes myfirst {
+          from{opacity: 0}/*不透明度*/
+          to{opacity: 100}
+      }
+   h1,p{
+          animation: myfirst 1s infinite;
+      }
+
+  </style>
+ </head>
+
+ <body>
+  <h1>静夜思</h1>
+  <p>床前明月光，</p>
+  <p>疑是地下霜，</p>
+  <p>举头望明月，</p>
+  <p>低头思故乡。</p>
+ </body>
+</html>
